@@ -1,0 +1,18 @@
+{
+    "dataset_rows": 16,
+    "target": "Spoilage",
+    "evaluation": "Leave-One-Out Cross-Validation",
+    "models": {
+        "Mean Baseline": {
+            "mae": 8.35,
+            "rmse": 10.09,
+            "r2": -0.138
+        },
+        "Random Forest": {
+            "mae": 4.445,
+            "rmse": 5.776,
+            "r2": 0.627
+        }
+    },
+    "note": "Preliminary evaluation on 16 experimental runs; not evidence of real-world generalization."
+}
